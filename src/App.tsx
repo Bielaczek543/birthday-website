@@ -77,8 +77,6 @@ function Fireworks() {
 }
 
 function App() {
-  const [showMessage, setShowMessage] = useState(false);
-
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -148,7 +146,7 @@ function App() {
 
       {/* HISTORIA */}
       <section className="relative z-10 max-w-7xl mx-auto px-6 pb-24">
-        {memories.map((memory, index) => (
+        {memories.map((memory) => (
           <article
             key={memory.number}
             className={`reveal flex flex-col ${
