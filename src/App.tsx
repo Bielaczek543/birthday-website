@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import obraz1 from "./assets/obraz1.png";
 import obraz2 from "./assets/obraz2.png";
 import obraz3 from "./assets/obraz3.png";
